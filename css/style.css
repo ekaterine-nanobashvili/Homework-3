@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(222, 218, 253);
+}
+.cont {
+    position:relative;
+    margin: 150px auto;
+    width: 300px;
+}
+.img {
+    width: 100%;
+    position: absolute;
+    animation: beat 1s infinite alternate;
+}
+.img:hover {
+    animation: none;
+}
+@keyframes beat {
+    0%
+  {
+    transform: scale(0.75);
+    opacity: 100%;
+  }
+  20%
+  {
+    transform: scale(1);
+    opacity: 90%;
+  }
+  40%
+  {
+    transform: scale(0.75);
+    opacity: 100%;
+  }
+  60%
+  {
+    transform: scale(1);
+    opacity: 90%;
+  }
+  80%
+  {
+    transform: scale(0.75);
+    opacity: 100%;
+  }
+  100%
+  {
+    transform: scale(1);
+    opacity: 90%;
+  }
+}
