@@ -12,7 +12,7 @@ body {
     animation: beat 1s infinite alternate;
 }
 .img:hover {
-    animation: none;
+    animation-play-state: paused;
 }
 @keyframes beat {
     0%
