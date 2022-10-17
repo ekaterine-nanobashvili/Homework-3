@@ -10,6 +10,7 @@ body {
     width: 100%;
     position: absolute;
     animation: beat 1s infinite alternate;
+    /* Hover-ზე მინდოდა ტრანზიციის დამატება, თუმცა ანიმაციასთან კონფლიქტშია */
 }
 .img:hover {
     animation-play-state: paused;
